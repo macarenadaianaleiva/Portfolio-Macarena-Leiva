@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    color: #333;
+  }
+  
+  header {
+    background: linear-gradient(to right, #6366f1, #a855f7);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  }
+  
+  main {
+    padding: 2rem;
+    max-width: 960px;
+    margin: auto;
+  }
+  
+  .profile {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 3px solid #6366f1;
+  }
+  
+  .skills table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .skills th,
+  .skills td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .skills th {
+    background-color: #6366f1;
+    color: white;
+  }
+  
+  .contact form {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .contact input,
+  .contact button {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .contact button {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact button:hover {
+    background-color: #4f46e5;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #eee;
+    margin-top: 2rem;
+  }
+  
+  /* Mejora futura: hacer la página responsive para pantallas más pequeñas */
+  /* Mejora futura: animaciones suaves al hacer hover sobre enlaces y botones */
+  /* Mejora futura: integrar iconografía SVG para una estética más profesional */
+  /* Mejora futura: hacer el formulario funcional con backend o Formspree */
+  
